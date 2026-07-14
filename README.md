@@ -1,5 +1,7 @@
 # Purchase Transaction API
 
+Sinvaldo
+
 Spring Boot microservice to:
 
 - store purchase transactions in USD;
