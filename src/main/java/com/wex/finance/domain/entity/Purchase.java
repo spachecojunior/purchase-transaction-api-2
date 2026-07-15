@@ -12,6 +12,8 @@ public record Purchase(
         @Column("id")
         String id,
 
+        String freeText;
+
         @Column("description")
         String description,
 
