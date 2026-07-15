@@ -48,3 +48,4 @@ replay_pid*
 .env
 .env.*
 !.env.example
+credenciais-locais.env
