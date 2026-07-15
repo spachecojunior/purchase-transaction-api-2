@@ -1,6 +1,5 @@
-# Purchase Transaction API Sinvaldo
+# Purchase Transaction API
 
-Sinvaldo Alterando o README através de uma branch
 
 Spring Boot microservice to:
 
