@@ -12,6 +12,9 @@ public record Purchase(
         @Column("id")
         String id,
 
+        @Column("freeText")
+        String freeText;
+
         @Column("description")
         String description,
 
@@ -24,13 +27,14 @@ public record Purchase(
         @Column("created_at")
         LocalDateTime createdAt
 ) {
-    public Purchase(String description, LocalDateTime transactionDate, BigDecimal amountUSD) {
+    public Purchase(String description, LocalDateTime transactionDate, BigDecimal amountUSD, String freeText) {
         this(
                 null,
                 description,
                 transactionDate,
                 amountUSD,
-                LocalDateTime.now()
+                LocalDateTime.now(),
+		freeText
         );
     }
 }
