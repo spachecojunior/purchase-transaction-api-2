@@ -1,6 +1,5 @@
 # Purchase Transaction API
 
-Este é um bug em produção!
 
 Spring Boot microservice to:
 
