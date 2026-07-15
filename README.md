@@ -1,4 +1,4 @@
-# Purchase Transaction API Sinvaldo
+# Purchase Transaction API
 
 
 Spring Boot microservice to:
